@@ -1,0 +1,49 @@
+footer {
+    padding: 3rem 0;
+    background: var(--text-black);
+    color: var(--text-color-white);
+}
+
+.content__footer {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.box__footer h3 {
+    font-size: 1.5rem;
+}
+
+.box__contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons__redes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons__redes i {
+    font-size: 2rem;
+    color: var(--text-color-white);
+    cursor: pointer;
+}
+
+.icons__redes i:hover {
+    color: var(--yellow);
+}
+
+.box__horario {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border-box);
+
+}

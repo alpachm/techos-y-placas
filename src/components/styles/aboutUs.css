@@ -1,0 +1,40 @@
+.about__us {
+    background-image: linear-gradient(rgb(0 0 0 / .7), rgb(0 0 0 / .7)), url(../../assets//abousUs-bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    min-height: 70vh;
+}
+
+.content__about__us {
+    padding: 2rem 1rem;
+    color: var(--text-color-main);
+
+    display: grid;
+    gap: 1rem;
+}
+
+.content__about__us h3 {
+    font-size: 1.5rem;
+}
+
+.content__about__us p {
+    font-size: .8rem;
+    line-height: 25px;
+}
+
+@media (min-width:500px) {
+    .content__about__us {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .content__about__us h3 {
+        font-size: 2rem;
+    }
+
+    .content__about__us p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}

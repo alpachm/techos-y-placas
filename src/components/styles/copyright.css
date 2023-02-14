@@ -1,0 +1,13 @@
+.copyright {
+    background: var(--copyright);
+    padding: .5rem;
+}
+
+.content__copyright {
+    text-align: center;
+}
+
+.content__copyright p {
+    color: var(--text-color-white);
+    font-size: 12px;
+}
