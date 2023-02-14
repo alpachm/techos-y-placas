@@ -17,7 +17,12 @@ footer {
 }
 
 .box__footer h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.box__footer span,
+.box__footer p {
+    font-size: 1.2rem;
 }
 
 .box__contact {

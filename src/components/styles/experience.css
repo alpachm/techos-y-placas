@@ -16,14 +16,14 @@
 
 .text__experience span:nth-child(2) {
     font-weight: 800;
-    font-size: .7rem;
+    font-size: 1rem;
     color: var(--text-light-black);
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .text__experience>h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--text-black);
 }
 
@@ -42,10 +42,12 @@
 
 .box__experience h3 {
     color: var(--text-black);
+    font-size: 1.4rem;
 }
 
 .box__experience p {
     color: var(--text-light-black);
+    font-size: 1.2rem;
 }
 
 .box__experience i {
