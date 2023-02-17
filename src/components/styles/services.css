@@ -103,8 +103,8 @@
 }
 
 .btn__services span:hover {
-    background: var(--yellow);
-    color: var(--text-color-white);
+    background: var(--orange);
+    color: var(--text-color-main);
 }
 
 .btn__services i {

@@ -72,6 +72,10 @@
         font-size: 1.3rem;
     }
 
+    .text__experience i {
+        font-size: 5rem;
+    }
+
     .box__experience i {
         font-size: 6rem;
     }

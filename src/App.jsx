@@ -12,7 +12,6 @@ function App() {
   const [isArrowTop, setIsArrowTop] = useState(false)
   const [isRedesSociales, setIsRedesSociales] = useState(false)
   const [showBtnWsp, setShowBtnWsp] = useState(false)
-  const [registroForm, setRegistroForm] = useState()
 
   window.addEventListener('scroll', function () {
     if (window.scrollY > 600) {
@@ -46,8 +45,8 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/' element={<Home />} setRegistroForm={setRegistroForm} />
-        <Route path='/registro-formulario' element={<RegistroForm />} registroForm={registroForm} />
+        <Route path='/' element={<Home />} />
+        <Route path='/registro-formulario' element={<RegistroForm />} />
       </Routes>
 
       <Footer />

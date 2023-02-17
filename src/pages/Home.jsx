@@ -7,7 +7,7 @@ import Main from '../components/Main'
 import Services from '../components/Services'
 import Testimonials from '../components/Testimonials'
 
-const Home = ({ setRegistroForm }) => {
+const Home = ({ }) => {
     return (
         <div className='home'>
             <Main />
@@ -16,7 +16,7 @@ const Home = ({ setRegistroForm }) => {
             <Gallery />
             <Experience />
             <Testimonials />
-            <Contact setRegistroForm={setRegistroForm} />
+            <Contact />
         </div>
     )
 }

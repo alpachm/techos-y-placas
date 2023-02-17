@@ -17,7 +17,7 @@
 }
 
 .text__gallery span {
-    color: var(--yellow);
+    color: var(--orange);
     font-size: 1.2rem;
     font-weight: 300;
     font-style: italic;
@@ -84,12 +84,12 @@
 
 .img__info button {
     width: 90%;
-    max-width: 80px;
-    border: 2px solid var(--yellow);
+    max-width: 100px;
+    border: 2px solid var(--orange);
     padding: 3px;
     font-weight: 600;
     font-size: .7rem;
-    color: var(--yellow);
+    color: var(--orange);
     background: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -98,7 +98,8 @@
 }
 
 .img__info button:hover {
-    background: var(--text-color-white);
+    background: var(--orange);
+    color: var(--text-color-main);
     border-color: transparent;
 }
 
