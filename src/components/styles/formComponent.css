@@ -28,6 +28,7 @@ form {
 form textarea {
     border: 1px solid var(--text-color-white);
     padding: 10px;
+    font-weight: 600;
 }
 
 form button {

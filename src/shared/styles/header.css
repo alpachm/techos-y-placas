@@ -92,11 +92,12 @@ nav a:hover {
 }
 
 nav>i {
-    transform: scale(3);
+    transform: scale(2.3);
     position: absolute;
     top: 20px;
     right: 20px;
-    color: var(--yellow);
+    background: var(--yellow);
+    color: var(--text-color-main);
 }
 
 .bx-menu {
