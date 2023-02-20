@@ -1,0 +1,54 @@
+.float__form {
+    width: 100%;
+    height: 100vh;
+    background: var(--black-transparent-form);
+    backdrop-filter: blur(2px);
+
+    position: fixed;
+    z-index: var(--zposition-fouth);
+    left: -200%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: left 1s;
+}
+
+.show__float__form {
+    left: 0;
+}
+
+.content__float__form h1 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--text-color-main);
+}
+
+.float__form form {
+    margin-top: 10px;
+}
+
+.float__form form label {
+    color: var(--text-color-main)
+}
+
+.float__form i {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+
+    background: var(--yellow);
+    color: var(--text-color-main);
+    font-size: 2rem;
+
+    display: block;
+    cursor: pointer;
+}
+
+@media (min-width: 500px) {
+    .content__float__form h1 {
+        font-size: 2rem;
+    }
+}

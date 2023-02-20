@@ -1,0 +1,38 @@
+.next__form {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__next__form {
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+}
+
+.content__next__form i {
+    font-size: 10rem;
+    color: var(--yellow);
+}
+
+.content__next__form h1,
+.content__next__form span {
+    font-size: 2rem;
+}
+
+.content__next__form span {
+    color: var(--yellow);
+}
+
+.content__next__form button {
+    border: none;
+    background: var(--yellow);
+    padding: 10px 0;
+    color: var(--text-color-main);
+    font-weight: bold;
+    width: 50%;
+    max-width: 200px;
+    margin: auto;
+    cursor: pointer;
+}

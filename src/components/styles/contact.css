@@ -16,45 +16,6 @@
     text-transform: uppercase;
 }
 
-form {
-    max-width: 500px;
-    margin: auto;
-    margin-top: 3rem;
-    display: grid;
-    gap: 1rem;
-}
-
-.inp {
-    display: grid;
-}
-
-.inp label {
-    font-size: 1rem;
-    margin-bottom: 3px;
-}
-
-.inp input {
-    border: 1px solid var(--text-color-white);
-    padding: 10px;
-}
-
-form textarea {
-    border: 1px solid var(--text-color-white);
-    padding: 10px;
-}
-
-form button {
-    border: none;
-    background: var(--yellow);
-    padding: 10px 0;
-
-    font-weight: 800;
-    font-size: 1rem;
-    color: var(--text-color-main);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
 @media (min-width:500px) {
     .content__contact>h3 {
         font-size: 2rem;

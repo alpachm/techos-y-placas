@@ -31,7 +31,6 @@
 .boxes__services {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .box__service {
@@ -132,5 +131,11 @@
 
     .service__list span {
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width:750px) {
+    .boxes__services {
+        grid-template-columns: 1fr 1fr;
     }
 }
