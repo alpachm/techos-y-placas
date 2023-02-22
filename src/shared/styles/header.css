@@ -30,7 +30,8 @@ header {
 }
 
 .logo img {
-    width: 70px;
+    width: 80px;
+    transition: display .3s;
 }
 
 .text_logo {
@@ -75,6 +76,7 @@ nav a {
     color: var(--text-light-black);
     font-size: 2rem;
     text-transform: uppercase;
+    cursor: pointer;
 
     transition: color .1s;
 }
@@ -109,6 +111,14 @@ nav>i {
 
 .color__menu__mobile {
     color: var(--yellow);
+}
+
+@media (min-width:380px) {
+    .logo {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
 }
 
 @media (min-width:700px) {

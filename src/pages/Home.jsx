@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import AboutUs from '../components/AboutUs'
 import Contact from '../components/Contact'
 import Experience from '../components/Experience'
@@ -11,6 +11,13 @@ import Header from '../shared/Header'
 import IconsFloat from '../shared/IconsFloat'
 
 const Home = ({ setShowFloatForm }) => {
+
+    const servicesHomeSection = useRef()
+    const aboutUsSection = useRef()
+    const contactSection = useRef()
+
+    const scrollToServicesHome = () => servicesHomeSection.current.scrollIntoView()
+
     return (
         <div className='home'>
             <IconsFloat setShowFloatForm={setShowFloatForm} />

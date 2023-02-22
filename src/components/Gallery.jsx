@@ -21,7 +21,7 @@ const Gallery = () => {
   const [showImgInfo8, setShowImgInfo8] = useState(false)
 
   return (
-    <section className="gallery">
+    <section className="gallery" id='galleryHome'>
 
       <div className="content__gallery">
 
