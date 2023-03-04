@@ -9,7 +9,7 @@ import techo6 from '../assets/images-gallery/techo-6.jpg'
 import techo7 from '../assets/images-gallery/techo-7.jpg'
 import techo8 from '../assets/images-gallery/techo-8.jpg'
 
-const Gallery = () => {
+const Gallery = ({ setShowFloatForm }) => {
 
   const [showImgInfo, setShowImgInfo] = useState(false)
   const [showImgInfo2, setShowImgInfo2] = useState(false)
@@ -38,7 +38,7 @@ const Gallery = () => {
             <img src={techo1} alt="impermeabilizacion de cubierta" />
             <div className={`img__info ${showImgInfo && 'show__img__info'}`}>
               <span>Impermeabilización de techo</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -46,15 +46,15 @@ const Gallery = () => {
             <img src={techo2} alt="techo de garaje" />
             <div className={`img__info ${showImgInfo2 && 'show__img__info'}`}>
               <span>Techo de policarbonato</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
           <div onMouseEnter={() => setShowImgInfo3(true)} onMouseLeave={() => setShowImgInfo3(false)} className="img_contain">
             <img src={techo3} alt="techo de vidrio" />
             <div className={`img__info ${showImgInfo3 && 'show__img__info'}`}>
-              <span>Techo de vidrio</span>
-              <button>Más info</button>
+              <span>Instalación de marquesina</span>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Gallery = () => {
             <img src={techo4} alt="impermeabilizacion de cubierta" />
             <div className={`img__info ${showImgInfo4 && 'show__img__info'}`}>
               <span>Impermeabilización de cubierta</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const Gallery = () => {
             <img src={techo5} alt="techo en shingle" />
             <div className={`img__info ${showImgInfo5 && 'show__img__info'}`}>
               <span>Instalación teja de shingle</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const Gallery = () => {
             <img src={techo6} alt="techo en shingle" />
             <div className={`img__info ${showImgInfo6 && 'show__img__info'}`}>
               <span>Instalación teja termoacústica</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -86,7 +86,7 @@ const Gallery = () => {
             <img src={techo7} alt="teja termoacustica" />
             <div className={`img__info ${showImgInfo7 && 'show__img__info'}`}>
               <span>Instalación teja termoacústica</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const Gallery = () => {
             <img src={techo8} alt="marquesina" />
             <div className={`img__info ${showImgInfo8 && 'show__img__info'}`}>
               <span>Instalación techo de vidrio</span>
-              <button>Más info</button>
+              <button onClick={() => setShowFloatForm(true)} >Más info</button>
             </div>
           </div>
         </div>

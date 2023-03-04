@@ -5,7 +5,7 @@ import reparacion from '../assets/images-services/reparacion.jpg'
 import instalacion from '../assets/images-services/instalacion.jpg'
 import goteras from '../assets/images-services/goteras.jpg'
 
-const Services = () => {
+const Services = ({ setShowFloatForm }) => {
   return (
     <section className="services" id='servicesHome'>
       <div className="content__services grilla">
@@ -33,7 +33,7 @@ const Services = () => {
                 <span>Materas</span>
               </div>
 
-              <div className="btn__services">
+              <div onClick={() => setShowFloatForm(true)} className="btn__services">
                 <span>Me interesa</span>
                 <i className='bx bx-chevrons-right'></i>
               </div>
@@ -55,7 +55,7 @@ const Services = () => {
                 <span>Adecuación y reforzamiento de techos</span>
               </div >
 
-              <div className="btn__services">
+              <div onClick={() => setShowFloatForm(true)} className="btn__services">
                 <span>Me interesa</span>
                 <i className='bx bx-chevrons-right'></i>
               </div>
@@ -72,13 +72,13 @@ const Services = () => {
                 <span>Tejas plásticas</span>
                 <span>Policatbonato</span>
                 <span>Vidrio</span>
-                <span>ACrílico</span>
+                <span>Acrílico</span>
                 <span>Domos</span>
                 <span>Pérgolas</span>
                 <span>Galvanizado</span>
               </div>
 
-              <div className="btn__services">
+              <div onClick={() => setShowFloatForm(true)} className="btn__services">
                 <span>Me interesa</span>
                 <i className='bx bx-chevrons-right'></i>
               </div>
@@ -102,7 +102,7 @@ const Services = () => {
                 <span>Muros</span>
               </div>
 
-              <div className="btn__services">
+              <div onClick={() => setShowFloatForm(true)} className="btn__services">
                 <span>Me interesa</span>
                 <i className='bx bx-chevrons-right'></i>
               </div>

@@ -19,8 +19,7 @@ function App() {
       />
 
       <Routes>
-        <Route path='/' element={<Home setShowFloatForm={setShowFloatForm}
-        />} />
+        <Route path='/' element={<Home setShowFloatForm={setShowFloatForm} />} />
         <Route path='next-form' element={<NextForm />} />
       </Routes>
 

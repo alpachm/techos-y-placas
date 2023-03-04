@@ -12,10 +12,10 @@ const Testimonials = () => {
 
           <div className="box__testimonials">
             <div className="text__testimonial">
-              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quia ipsam dolorum, officiis consequatur doloribus temporibus vero quidem recusandae debitis quas, quis beatae sint tenetur illum? Sequi odit ut repellat?"</p>
+              <p>"Techos y placas gracias, me dieron la oportunidad de volver a disfrutar mi hogar con mi nuevo tejado"</p>
               <div className="box__person">
                 <img src={testimonial1} />
-                <span>Maria Mora</span>
+                <span>Anidis Madrid</span>
               </div>
             </div>
             <div className="box__bottom__testimonial"></div>
@@ -23,10 +23,10 @@ const Testimonials = () => {
 
           <div className="box__testimonials">
             <div className="text__testimonial">
-              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quia ipsam dolorum, officiis consequatur doloribus temporibus vero quidem recusandae debitis quas, quis beatae sint tenetur illum? Sequi odit ut repellat?"</p>
+              <p>"Excelente empresa, realizan un trabajo de calidad. Cumplieron con todo lo acordado, luego de que ellos impermeabilizaron mi tejado no tuve más problemas de goteras. 100% recomendados"</p>
               <div className="box__person">
                 <img src={testimonial2} />
-                <span>Jose Rodriguez</span>
+                <span>Dimas Vargas</span>
               </div>
             </div>
             <div className="box__bottom__testimonial"></div>

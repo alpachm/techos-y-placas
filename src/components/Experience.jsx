@@ -13,14 +13,14 @@ const Experience = () => {
                 <div className="boxes__experience">
 
                     <div className="box__experience">
-                        <h3>Buen trabajo garantizado</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur!</p>
+                        <h3>Excelente trabajo garantizado</h3>
+                        <p>Con 15 años de experiencia realizamos trabajos de calidad con mano de obra experimentada.</p>
                         <i className='bx bxs-hard-hat'></i>
                     </div>
 
                     <div className="box__experience">
                         <h3>Certificaciones al día</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur! Lorem ipsum dolor sit amet.</p>
+                        <p>Contamos con toda la certificación necesaria para realizar un trabajo de calidad.</p>
                         <i className='bx bxs-copy-alt'></i>
                     </div>
                 </div>

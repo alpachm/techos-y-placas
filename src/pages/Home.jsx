@@ -24,8 +24,8 @@ const Home = ({ setShowFloatForm }) => {
             <Header />
             <Main />
             <AboutUs />
-            <Services />
-            <Gallery />
+            <Services setShowFloatForm={setShowFloatForm} />
+            <Gallery setShowFloatForm={setShowFloatForm} />
             <Experience />
             <Testimonials />
             <Contact />

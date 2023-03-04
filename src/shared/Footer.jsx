@@ -36,8 +36,8 @@ const Footer = () => {
           <h3>Redes sociales</h3>
 
           <div className="icons__redes">
-            <a href="https://www.facebook.com" target={'_blank'}><i className='bx bxl-facebook-square' ></i></a>
-            <a href="https://www.instagram.com/?hl=es-la" target={'_blank'}><i className='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100089435441637" target={'_blank'}><i className='bx bxl-facebook-square' ></i></a>
+            <a href="https://www.instagram.com/techosyplacas/" target={'_blank'}><i className='bx bxl-instagram-alt' ></i></a>
           </div>
         </div>
 
@@ -46,12 +46,12 @@ const Footer = () => {
 
           <div className="box__horario">
             <p>Lunes a Viernes</p>
-            <span>8am - 6pm</span>
+            <span>7:30am - 5:30pm</span>
           </div>
 
           <div className="box__horario">
             <p>Sabado</p>
-            <span>9am - 2pm</span>
+            <span>7:30am - 2pm</span>
           </div>
         </div>
 

@@ -29,12 +29,12 @@ const IconsFloat = ({ setShowFloatForm }) => {
         <div className='icons__float'>
 
             <div className={`redes_sociales_float ${isRedesSociales && 'show_redes_float'}`}>
-                <a href="https://www.facebook.com" target={'_blank'}> <i className='bx bxl-facebook-square' ></i></a>
-                <a href="https://www.instagram.com/?hl=es-la" target={'_blank'}> <i className='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100089435441637" target={'_blank'}> <i className='bx bxl-facebook-square' ></i></a>
+                <a href="https://www.instagram.com/techosyplacas/" target={'_blank'}> <i className='bx bxl-instagram-alt' ></i></a>
             </div>
 
-            <a className={`btn__wsp ${showBtnWsp && 'show__btn__wsp'}`} href="#">
-                <a href="https://web.whatsapp.com" target={'_blank'}><i className='bx bxl-whatsapp'></i></a>
+            <a className={`btn__wsp ${showBtnWsp && 'show__btn__wsp'}`}>
+                <a href="https://wa.link/nmbd19" target={'_blank'} ><i className='bx bxl-whatsapp'></i></a>
             </a>
 
             <div onClick={handleClickEmail} className={`btn__email ${isRedesSociales && 'show__btn__email'} `} href="#">
