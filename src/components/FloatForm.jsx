@@ -8,7 +8,7 @@ const FloatForm = ({ showFloatForm, setShowFloatForm }) => {
     useEffect(() => {
         setTimeout(() => {
             setShowFloatForm(true)
-        }, 15000);
+        }, 20000);
     }, [])
 
     const hideFloatForm = () => {
