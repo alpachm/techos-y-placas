@@ -5,7 +5,7 @@ const Copyright = () => {
     return (
         <section className="copyright">
             <div className="content__copyright grilla">
-                <p>Copyright © Todos los derechos reservados</p>
+                <p>Copyright © 2023 Techos & Placas Todos los derechos reservados | Realizado por <a href="">Alex Pacheco</a></p>
             </div>
         </section>
     )

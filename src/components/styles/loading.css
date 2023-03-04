@@ -1,0 +1,34 @@
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+
+    height: 100vh;
+    width: 100%;
+    background: var(--text-color-white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img {
+    width: 150px;
+
+    animation: logo__move 1500ms infinite;
+}
+
+@keyframes logo__move {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
